@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const TASK_COUNT = 3;
 
@@ -467,7 +467,7 @@ render(taskListElement, createTaskEditTemplate());
 new Array(TASK_COUNT)
   .fill(``)
   .forEach(
-    () => render(taskListElement, createTaskTemplate())
+      () => render(taskListElement, createTaskTemplate())
   );
 
 const boardElement = siteMainElement.querySelector(`.board`);
